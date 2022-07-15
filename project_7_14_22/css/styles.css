@@ -1,14 +1,27 @@
 .dion_img {
     width: 100px;
     height: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
 }
 
 .jai_img {
     width: 100px;
     height: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
 }
 
 .yeon_img {
     width: 100px;
     height: 100px;
+    border-radius: 50%;
+    float: left;
+    margin-right: 20px;
+}
+
+.about_container{
+    margin: 50px auto;
 }
