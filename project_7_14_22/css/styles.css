@@ -22,6 +22,35 @@
     margin-right: 20px;
 }
 
-.about_container{
+.about_container {
     margin: 50px auto;
+}
+
+.dion1 {
+    margin-bottom: 100px;
+}
+
+.dion2 {
+    margin-bottom: 140px;
+}
+
+.jai1 {
+    margin-bottom: 100px;
+}
+
+.jai2 {
+    margin-bottom: 140px;
+}
+
+.yeon1 {
+    margin-bottom: 100px;
+}
+
+.yeon2 {
+    margin-bottom: 140px;
+}
+
+.second {
+    position: relative;
+    top: 40px;
 }
