@@ -1,0 +1,23 @@
+#one {
+    background-color: blue;
+}
+
+.two {
+    background-color: green;
+}
+
+div > p {
+    background-color: orange;
+}
+
+div ul {
+    font-style: italic;
+}
+
+div + ol {
+    background-color: teal;
+}
+
+div ~ p {
+    color: blue;
+}
