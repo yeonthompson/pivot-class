@@ -1,0 +1,39 @@
+.red {
+    background-color: red;
+    border: 10px solid;
+    padding: 0px;
+    margin: 0px;
+}
+
+.yellow {
+    background-color: yellow;
+    border: 10px dotted;
+    padding: 10px;
+    margin-left: 320px;
+}
+
+.blue {
+    background-color: blue;
+    border: 10px dashed;
+    margin-left: 660px;
+    padding: 1px;
+}
+
+.square {
+    height: 300px;
+    width: 300px;
+}
+
+.firstP {
+    text-align: left;
+}
+
+.secondP {
+    text-align: center;
+    color: blue;
+}
+
+.thirdP {
+    text-align: right;
+    color: white;
+}

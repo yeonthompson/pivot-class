@@ -1,0 +1,18 @@
+.para-a {
+    border: 3%;
+    margin: 3%;
+    padding: 3%;
+}
+
+.para-b a:link {
+    color: green;
+}
+
+.para-c a:first-child {
+    color: orange;
+}
+
+.para-b a:hover {
+    color: red;
+}
+

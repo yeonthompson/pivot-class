@@ -1,0 +1,23 @@
+.one {
+    border: 10px solid;
+    padding: 10px;
+    margin: 5px;
+}
+
+.square {
+    height: 300px;
+    width: 300px;
+}
+
+.firstP {
+    text-align: left;
+}
+
+.secondP {
+    text-align: center;
+    color: blue;
+}
+
+.thirdP {
+    text-align: right;
+}

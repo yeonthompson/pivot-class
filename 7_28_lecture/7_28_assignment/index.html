@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- added the meta tags as well as general indentations-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- closed the title tag -->
+    <title>Page Title Here</title>
+    <style>
+        p {color: green;}
+        /* cannnot have a class name start with a number. put the number at the end of the class name. fixed background color property */
+        .class1 {padding: 10px; background-color: orange;}
+    </style>
+</head>
+<body>
+    <h2>HTML Forms</h2>
+    <form id="form" action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <!-- changed value to placeholder because if your name is not john doe you will have to delete it. more for the UX aspect -->
+        <input type="text" id="fname" name="fname" placeholder="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Doe"><br><br>
+        <!-- did not change the input type to submit but you would need some javascript to make the button work -->
+        <input type="button" value="Submit">
+    </form>
+    <!-- changed the class name to match what is in the style tag -->
+    <div id="form" class="class1">
+        <!-- closed the bold tag -->
+        <p>
+        lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, <b>when</b> an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset <i>sheets containing Lorem Ipsum passages</i>, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </p>
+    </div>
+    <p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+    <p>
+    <!-- changed the anchor tag attribute from link to href -->
+    <a href="http://www.yourpage.com">More text Here</a>
+    </p>
+    <p>
+    lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+    </p>
+</body>
+</html>

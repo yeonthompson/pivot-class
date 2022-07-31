@@ -1,0 +1,33 @@
+table {
+    width: 100%;    
+    text-align: left;
+}
+
+/* th, td {
+    text-align: left;
+} */
+
+th {
+    padding: 20px;
+    background-color: blue;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td.fifty {
+    background-color: orange;
+}
+
+tr:hover {
+    background-color: lightblue;
+}
+
+td.fifty:hover {
+    background-color: lightblue;
+}
