@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+body {
+    min-height: 100vh;
+    background: url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+header {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    padding: 0 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .logo {
+    font-weight: bold;
+    font-size: 1.5625rem;
+    color: #333;
+}
+
+header .navbar ul {
+    list-style: none;
+}
+
+header .navbar ul li {
+    position: relative;
+    float: left;
+}   
+
+header .navbar ul li a {
+    font-size: 1.25rem;
+    padding: 1.25rem;
+    color: #333;
+    display: block;
+}
+
+header .navbar ul li a:hover {
+    background: #333;
+    color: #ffffff;
+}
+
+header .navbar ul li ul {
+    position: absolute;
+    left: 0;
+    width: 10rem;
+    background: #ffffff;
+    display: none;
+}
+
+header .navbar ul li ul li {
+    width: 100%;
+    border-top: 1px solid #333;
+}
+
+header .navbar ul li ul li ul {
+    left: 10rem;
+    top: 0;
+}
+
+header .navbar ul li:focus-within > ul, header .navbar ul li:hover > ul {
+    display: initial;
+}

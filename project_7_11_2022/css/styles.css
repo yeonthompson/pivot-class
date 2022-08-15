@@ -1,0 +1,114 @@
+.code_screen_img {
+    width: 200px;
+    height: 200px;
+}
+
+.logo_img {
+    width: 200px;
+    height: 200px;
+}
+
+.data_screen_img {
+    width: 200px;
+    height: 200px;
+}
+
+.cyber_screen_img {
+    width: 200px;
+    height: 200px;
+}
+
+body {
+    background-color: rgb(211, 219, 225);
+    margin: auto 0 0 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 30px;
+}
+
+.top_container {
+    padding: 10px;
+}
+
+hr {
+    border-color: gray;
+    border-style: dotted none none none;
+    border-width: 5px;
+    width: 4%;
+    margin: 10px auto;
+}
+
+.head {
+    background-color: rgb(199, 206, 206);
+    text-align: center;
+}
+
+.interest {
+    text-align: center;
+    padding: 20px;
+}
+
+.call {
+    text-align: center;
+    padding: 20px;
+}
+
+.shaela {
+    padding: 20px;
+    text-align: center;
+}
+.terrance {
+    padding: 20px;
+    text-align: center;
+}
+
+.reeree {
+    padding: 20px;
+    text-align: center;
+}
+
+.yeon {
+    padding: 20px;
+    text-align: center;
+}
+
+.meet {
+    text-align: center;
+    padding: 20px;
+}
+
+.offer {
+    text-align: center;
+}
+
+#submit {
+    background-color: green;
+}
+
+#reset {
+    background-color: red;
+}
+
+.among_img_1 {
+    width: 200px;
+    height: 200px;
+}
+
+.among_img_2 {
+    width: 200px;
+    height: 200px;
+}
+
+.among_img_3 {
+    width: 200px;
+    height: 200px;
+}
+
+.among_img_4 {
+    width: 200px;
+    height: 200px;
+}

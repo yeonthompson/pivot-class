@@ -1,0 +1,189 @@
+/* Nav Bar
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #32292F;
+}
+.nav li {
+    float: left;
+}
+.nav li a, .dropbton {
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav li a:hover, .ddown:hover .dropbton {
+    background-color: darkolivegreen;
+}
+.nav li.ddown {
+    display: inline-block;
+}
+header .nav ul li .ddown-content, .content-2 {
+    display: none;
+    position: absolute;
+    background-color: #70abaf;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.ddown-content a, .content-2 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.ddown-content a:hover, .content-2 a:hover {
+    background-color: #F0F7F4;
+}
+.ddown:hover .ddown-content, .content-2 {
+    display: block;
+} */
+/* Yeon's help */
+
+/*  */
+
+header {
+    position: fixed;
+    top: 0; 
+    left: 0;
+    right: 0;
+    background: #ffffff;
+    padding: 0 7%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+}
+
+header .logo {
+    font-weight: bold;
+    font-size: 1.5625rem;
+    color: #333;
+}
+
+header .navbar ul {
+    list-style: none;
+}
+
+header .navbar ul li {
+    position: relative;
+    float: left;
+}   
+
+header .navbar ul li a {
+    font-size: 1.25rem;
+    padding: 1.25rem;
+    color: #333;
+    display: block;
+}
+
+header .navbar ul li a:hover {
+    background: #333;
+    color: #ffffff;
+}
+
+header .navbar ul li ul {
+    position: absolute;
+    left: 0;
+    width: 10rem;
+    background: #ffffff;
+    display: none;
+}
+
+header .navbar ul li ul li {
+    width: 100%;
+    border-top: 1px solid #333;
+}
+
+header .navbar ul li ul li ul {
+    left: 10rem;
+    top: 0;
+}
+
+header .navbar ul li:focus-within > ul, header .navbar ul li:hover > ul {
+    display: initial;
+}
+
+
+/*June 21 2022 CSS*/
+body {
+    background-color: #F0F7F4;
+    text-align: center;
+}
+#class {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 2px solid;
+    border-color: black;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#class tr:nth-child(even) {
+    background-color: lightgray;
+}
+#class tr:hover {
+    background-color: grey;
+}
+#class th {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-align: center;
+    background-color: #468189;
+    color: whitesmoke;
+}
+/*June 27 2022*/
+li {
+    list-style: none;
+}
+#Format {
+    border: 2px solid black;
+    margin: auto;
+    border-collapse: separate;
+}
+#Format th {
+    background-color: #99e1d9;
+    padding: 8px;
+}
+#Format td {
+    padding: 15px;
+}
+#Format tr:nth-child(even) {
+    background-color: #70abaf;
+}
+#Format tr:hover {
+    background-color: grey;
+}
+#browsers, #target {
+    border-style: groove;
+    background-color: #32292F;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+    width: fit-content;
+    margin: auto;
+}
+#browsers li, #target li {
+    background-color: grey;
+    color: white;
+    margin: 5px;
+}
+/*Breakout Rooms*/
+.BORE  {
+    border: 1px solid black;
+    background-color: #468189;
+    color: whitesmoke;
+    font-size: 18px;
+    max-width: fit-content;
+    margin: auto;
+    padding: 5px 50px;
+}
+.j2 {
+    list-style: upper-roman;
+}

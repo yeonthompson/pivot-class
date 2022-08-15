@@ -1,0 +1,82 @@
+Classroom LogoClassroom
+Hi Yeon,
+Chris Gordon posted a new assignment in Web Development - 22-2.
+
+NEW ASSIGNMENT
+Menu Assignment
+Fix jumping on hover,
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.nav {
+  background-color: #3483eb;
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  border-radius: 15px;
+  padding: 2.5px, 0;
+}
+
+.nav li {
+  display: inline;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 20px;
+  margin: 5px 0;
+  text-transform: uppercase;
+  font-family: sans-serif;
+  /* border-top: 5px solid #3483eb; */
+}
+
+.nav li a:link{
+ text-decoration: none;
+}
+
+.nav li a:link, .nav li a:visited{
+  color: white;
+}
+
+.nav li:hover{
+  background-color: #345beb;
+  border-radius: 10px;
+  /* border-top: 5px solid #5234eb; */
+}
+
+.nav li:hover a:link, .nav li:hover a:visited { color: white;}
+
+.nav li::before {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: .75s;
+}
+
+.nav li:hover::before {
+  width: 100%;
+}
+
+</style>
+</head>
+<body>
+
+<h1>Horizontal Navigation Links</h1>
+<p>By default, list items are displayed vertically. In this example we use display: inline-block to display them horizontally (side by side).</p>
+<p>Note: If you resize the browser window, the links will automatically break when it becomes too crowded.</p>
+
+<ul class="nav">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#about">About Us</a></li>
+  <li><a href="#clients">Our Clients</a></li>  
+  <li><a href="#contact">Contact Us</a></li>
+</ul>
+
+</body>
+</html>

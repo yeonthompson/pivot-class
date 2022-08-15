@@ -1,0 +1,19 @@
+.div1, .div2, .div3 {
+    float: left;
+}
+
+.div4, .div5, .div6 {
+    float: right;
+}
+
+.div2 {
+    overflow: hidden;
+}
+
+.div4 {
+    overflow: scroll;
+}
+
+.div3, .div6 {
+    clear: both;
+}
