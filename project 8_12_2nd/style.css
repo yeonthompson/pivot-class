@@ -54,8 +54,10 @@ body {
     display: flex;
     align-items: center;
     border-bottom: 1px solid #e6e6e6;
+    background-color: #fff;
     position: sticky;
     top: 0;
+    z-index: 1;
 }
 
 .logo-img {
@@ -85,7 +87,7 @@ body {
 /*              */
 
 .hero-wrapper {
-    display: flex;
+    /* display: flex; */
     position: relative;
     text-align: center;
     width: 80%;
