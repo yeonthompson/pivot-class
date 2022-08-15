@@ -28,6 +28,7 @@ body {
     display: flex;
     align-items: center;
     height: 40px;
+    margin: 0;
 }
 
 .second-nav li {
