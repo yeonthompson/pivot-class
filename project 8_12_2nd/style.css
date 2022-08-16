@@ -101,6 +101,7 @@ body {
     min-width: 9rem;
     display: none;
     margin-left: 20px;
+    margin-top: 10px;
 }
 
 .navbar .nav-container li:focus-within > ul, .navbar .nav-container li:hover > ul {
@@ -132,6 +133,7 @@ body {
 
 .nav-container li:hover .carat-svg {
     transform: rotate(180deg);
+    cursor: pointer;
 }
 
 .nav-container li:hover > a {
