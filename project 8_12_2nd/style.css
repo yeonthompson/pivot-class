@@ -84,6 +84,7 @@ body {
 .nav-container li a {
     text-decoration: none;
     color: #1d2f28;
+    line-height: 1.5em;
 }
 
 /* dropdown products */
@@ -101,10 +102,14 @@ body {
     min-width: 9rem;
     display: none;
     margin-left: 20px;
-    margin-top: 10px;
 }
 
-.navbar .nav-container li:focus-within > ul, .navbar .nav-container li:hover > ul {
+/* .navbar .nav-container li:focus-within > ul, .navbar .nav-container li:hover > ul {
+    display: block;
+
+} */
+
+.navbar .nav-container li:hover > ul {
     display: block;
 
 }
@@ -125,7 +130,7 @@ body {
     border-radius: .25rem;
 }
 
-/* end dropdown products */
+/* nav icon arrow */
 
 .carat {
     display: inline-block;
@@ -139,7 +144,6 @@ body {
 .nav-container li:hover > a {
     color: #2d810e;
 }
-
 
 /* hero section */
 /*              */
@@ -164,8 +168,8 @@ body {
     position: absolute;
     display: inline-block;
     padding: 60px;
-    border: 2px solid #e6e6e6;
-    border-radius: 4px;
+    border: .125rem solid #e6e6e6;
+    border-radius: .25rem;
     bottom: 20%;
     left: 5%;
     text-align: left;
@@ -186,12 +190,66 @@ body {
 
 .footer {
     text-align: center;
-    padding: 20px;
+    padding: 1.25rem;
     background-color: #666;
     margin-top: 10rem;
 }
 
-.header > *, .navbar > *, .hero > *, .footer > * {
-    /* min-width: 800px; */
-    /* max-width: 80%; */
+/* .header > *, .navbar > *, .hero > *, .footer > * {
+    min-width: 800px;
+    max-width: 80%;
+} */
+
+hr {
+    border-color: gray;
+    border-style: dotted none none none;
+    border-width: 5px;
+    width: 4%;
+    margin: 0 auto;
+
+}
+
+/* teams page */
+
+main .team-wrapper {
+    margin: 0 auto;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+main .team-wrapper .member {
+    padding: 2rem;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+
+main .team-wrapper .member .member-img-container img {
+    border-radius: 100%;
+    width: 10%;
+    min-width: 120px;
+    /* float: left; */
+    /* margin-right: 1.25rem; */
+}
+
+@media screen and (min-width: 961px) {
+    main .team-wrapper .member {
+        grid-template-columns: 120px 1fr;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    main .team-wrapper .member .member-text {
+        text-align: center;
+    }
+    
+    main .team-wrapper .member .member-img-container {
+        display: flex;
+        justify-content: center;
+    }
 }

@@ -5,62 +5,95 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
-    <link rel="stylesheet" href="style-2.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="grid-container">
-        <header class="header">
-            <h1>Contact</h1>
-            <p>Welcome to the page. Here you will find things about this page.</p>
-        </header>
-        <nav class="navbar">
-            <div class="nav">
-                <span>LOGO</span>
-                <ul class="nav-container">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="team.html">Team</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div>
-        </nav>
-        <div class="left-content">
-            <h4>Learning how to code?</h4>
-            <p>There are some things I wished I had known 2 months ago. Those things are:</p>
-            <ul>
-                <li><span>Take your time. It will come eventually.</span></li>
-                <li><span>You will not know everything.</span></li>
-                <li><span>It's going to be hard. You may feel like quitting. Don't.</span></li>
-                <li><span>Take the advice of Shia Lebouf and Nike: JUST DO IT</span></li>
+    <header class="header">
+        <div class="second-nav-wrapper">
+            <ul class="second-nav">
+                <li><a target="_blank" href="https://pivottechschool.com/">PTS</a></li>
+                <li><a target="_blank" href="https://www.youtube.com/">Learning</a></li>
+                <li><a target="_blank" href="class_recordings.html">Class Recording</a></li>
             </ul>
         </div>
-        <main class="main-content">
-            <h3>How will you ever find me?</h3>
-            <!-- <div class="form-container">
-                <form action="index.html" method="post" enctype="text/plain">
-                    <label for="firstName">First Name:</label>
-                    <input type="text" name="firstName" placeholder="First Name">
-                    <br>
-                    <label for="lastName">Last name:</label>
-                    <input type="text" name="lastName" placeholder="Last Name">
-                    <br>
-                    <label for="email">Email Address:</label>
-                    <input type="email" name="emailAddress" placeholder="Email">
-                    <br>
-                    <label for="message">Message:</label>
-                    <br>
-                    <textarea name="name" id="" cols="30" rows="10" placeholder="Write your message here"></textarea>
-                    <input type="submit" value="Do Not Press Me I Will Break">
-                </form>
-            </div>     -->
-        </main>
-        <div class="right-content">
-            <h4>Already know how to code?</h4>
-            <p>Don't judge my page. I'm still learning.</p>
-        </div>
-        <footer class="footer">
-            <p>© 2022 Yeon Thompson</p>
-        </footer>
+    </header>
+    <div class="navbar">
+        <a href="/"><img class="logo-img" title="home" src="./img/demo_logo.png" alt="logo"></a>
+        <ul class="nav-container">
+            <li>
+                <a target="_blank" href="index.html">Home</a>
+                <div class="carat">
+                    <svg class="carat-svg" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.29289 4.79289C2.68342 4.40237 3.31658 4.40237 3.70711 4.79289L8 9.08579L12.2929 4.79289C12.6834 4.40237 13.3166 4.40237 13.7071 4.79289C14.0976 5.18342 14.0976 5.81658 13.7071 6.20711L8.70711 11.2071C8.31658 11.5976 7.68342 11.5976 7.29289 11.2071L2.29289 6.20711C1.90237 5.81658 1.90237 5.18342 2.29289 4.79289Z" fill="black"></path>
+                    </svg>
+                </div>
+            </li>
+            <li>
+                <a target="_blank" href="product-1.html">Product</a>
+                <div class="carat">
+                    <svg class="carat-svg" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.29289 4.79289C2.68342 4.40237 3.31658 4.40237 3.70711 4.79289L8 9.08579L12.2929 4.79289C12.6834 4.40237 13.3166 4.40237 13.7071 4.79289C14.0976 5.18342 14.0976 5.81658 13.7071 6.20711L8.70711 11.2071C8.31658 11.5976 7.68342 11.5976 7.29289 11.2071L2.29289 6.20711C1.90237 5.81658 1.90237 5.18342 2.29289 4.79289Z" fill="black"></path>
+                    </svg>
+                </div>
+                <ul class="products-dropdown">
+                    <li><a href="product-1.html">Product-1</a></li>
+                    <li><a href="product-2.html">Product-2</a></li>
+                    <li><a href="product-3.html">Product-3</a></li>
+                    <li><a href="product-4.html">Product-4</a></li>
+                </ul>
+            </li>
+            <li>
+                <a target="_blank" href="about.html">About</a>
+                <div class="carat">
+                    <svg class="carat-svg" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.29289 4.79289C2.68342 4.40237 3.31658 4.40237 3.70711 4.79289L8 9.08579L12.2929 4.79289C12.6834 4.40237 13.3166 4.40237 13.7071 4.79289C14.0976 5.18342 14.0976 5.81658 13.7071 6.20711L8.70711 11.2071C8.31658 11.5976 7.68342 11.5976 7.29289 11.2071L2.29289 6.20711C1.90237 5.81658 1.90237 5.18342 2.29289 4.79289Z" fill="black"></path>
+                    </svg>
+                </div>
+            </li>
+            <li>
+                <a target="_blank" href="team.html">Team</a>
+                <div class="carat">
+                    <svg class="carat-svg" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.29289 4.79289C2.68342 4.40237 3.31658 4.40237 3.70711 4.79289L8 9.08579L12.2929 4.79289C12.6834 4.40237 13.3166 4.40237 13.7071 4.79289C14.0976 5.18342 14.0976 5.81658 13.7071 6.20711L8.70711 11.2071C8.31658 11.5976 7.68342 11.5976 7.29289 11.2071L2.29289 6.20711C1.90237 5.81658 1.90237 5.18342 2.29289 4.79289Z" fill="black"></path>
+                    </svg>
+                </div>
+            </li>
+            <li>
+                <a target="_blank" href="contact.html">Contact</a>
+                <div class="carat">
+                    <svg class="carat-svg" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M2.29289 4.79289C2.68342 4.40237 3.31658 4.40237 3.70711 4.79289L8 9.08579L12.2929 4.79289C12.6834 4.40237 13.3166 4.40237 13.7071 4.79289C14.0976 5.18342 14.0976 5.81658 13.7071 6.20711L8.70711 11.2071C8.31658 11.5976 7.68342 11.5976 7.29289 11.2071L2.29289 6.20711C1.90237 5.81658 1.90237 5.18342 2.29289 4.79289Z" fill="black"></path>
+                    </svg>
+                </div>
+            </li>
+        </ul>
     </div>
+    <main class="main-content">
+        <h3>How will you ever find me?</h3>
+        <div class="form-container">
+            <form action="index.html" method="post" enctype="text/plain">
+                <label for="firstName">First Name:</label>
+                <input type="text" name="firstName" placeholder="First Name">
+                <br>
+                <label for="lastName">Last name:</label>
+                <input type="text" name="lastName" placeholder="Last Name">
+                <br>
+                <label for="email">Email Address:</label>
+                <input type="email" name="emailAddress" placeholder="Email">
+                <br>
+                <label for="message">Message:</label>
+                <br>
+                <textarea name="name" id="" cols="30" rows="10" placeholder="Write your message here"></textarea>
+                <input type="submit" value="Do Not Press Me I Will Break">
+            </form>
+        </div>    
+    </main>
+    <div class="right-content">
+        <h4>Already know how to code?</h4>
+        <p>Don't judge my page. I'm still learning.</p>
+    </div>
+    <footer class="footer">
+        <p>© 2022 Yeon Thompson</p>
+    </footer>
 </body>
 </html>
